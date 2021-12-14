@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/homepage.css"> -->
+    <link rel="stylesheet" href="css/productCard.css">
+    <link rel="stylesheet" href="css/homepage.css">
+
+    <script src="js/product.js"></script>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+    <title>Easy Shopping</title>
+</head>
+
+<body>
+    <section class="header">
+        <header>
+            <div id="head">
+                <div id="logo" class="navbar">
+                    <h1>Easy-Shopping</h1>
+                    <p>Traditional Indian Store</p>
+                </div>
+                <div class="navbar">
+                    <p><a href="#">Home</a></p>
+                    <p><a href="#">Orders</a></p>
+                    <p><a href="#">Become Social</a></p>
+                    <p><a href="#">Contact</a></p>
+                    <div class="navbar search">
+                        <input type="text" placeholder="Search Products">
+                        <button type="submit">🔍</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <section class="headImg">
+        <img src="img/headImg.png" alt="" width="100%">
+    </section>
+    <section class="main">
+        <div id="main">
+
+        </div>
+        <div id="products">
+            <div class="section" id="food">
+                <h1 class="secHead">Foods for foodies</h1>
+                <div class="card">
+                    <img src="img/1.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/1.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/1.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/1.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/1.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="section" id="cloths">
+                <h1 class="secHead">Cloths for Young Generation</h1>
+                <div class="card">
+                    <img src="img/2.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/2.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/2.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/2.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/2.webp" class="thumbnail" alt="img">
+                    <div class="cardDetails">
+                        <h1 class="main">Product Name</h1>
+                        <p>Price: <span class="lntr">100&#160</span> 89 Rs</p>
+                        <button>Buy Now</button>
+                        <button class="addCart">View More</button>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <input type="date" id="date" onchange="fun()">
+        <h1 style="color: black;" id="h">Blank</h1>
+    </footer>
+</body>
+<script>
+    function fun() {
+        var a = document.getElementById("date").value;
+        document.getElementById("h").innerHTML = a;
+    }
+</script>
+
+</html>
